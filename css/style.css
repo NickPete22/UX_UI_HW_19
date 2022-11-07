@@ -47,9 +47,11 @@
     .heroImg {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between ;
       align-content: center;
       width: 100%;
+      margin-top: 30px;
+      /*background:rgba(255, 255, 255, 0.3);*/
   }
   .content {
       display: flex;
@@ -57,7 +59,6 @@
       max-width: 500px;
       margin: 0 auto;
       padding: 20px;
-  
       text-align: center;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-weight: normal;
@@ -70,15 +71,33 @@
       font-size: 24px;
       font-weight: normal;
       color: #f14d29;
+      
     }
   .photo {
       display: flex;
       flex-direction: column;
-      padding-top: 20px;
-      padding-left: 10px;
-      padding-right: 200px;
+      margin:auto;
     }
-    button {
+    .dwnld {
+        padding: 15px;
+        background-color: #4386ab;
+        color: white;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: medium;
+        border-radius: 4px;
+        width: 200px;
+        margin:auto;
+    }
+   .dwnld:hover {
+        background-color: #f14d29;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+    .buttons {
       padding: 15px;
       background-color: #4386ab;
       color: white;
@@ -89,7 +108,7 @@
       width: 200px;
       margin: 30px;
     }
-    button:hover {
+    .buttons:hover {
       background-color: #f14d29;
       -webkit-transition: all 0.5s;
       -moz-transition: all 0.5s;
@@ -151,7 +170,7 @@
   
     p {
       color: white;
-      padding-top: 5px;
+      padding-top: 15px;
     }
     .workGrid img {
       padding-bottom: 20px;
