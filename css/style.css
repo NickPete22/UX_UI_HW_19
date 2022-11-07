@@ -70,7 +70,7 @@
     h2 {
       font-size: 24px;
       font-weight: normal;
-      color: #f14d29;
+      color: #005281;
       
     }
   .photo {
@@ -123,11 +123,23 @@
       -o-transition: all 0.5s;
       transition: all 0.5s;
       cursor: pointer;
-   } 
+   }
+   #welcome {
+    width: 800px;
+    padding: 20px;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 37px;
+    margin: 30px auto;
+    color: #005281;
+    font-weight: bold;
+    /*background-color: #4386ab;*/
+
+ }
     /* SKILLS AREA */
   .mySkills {
       width: 100%;
-      padding-top: 200px;
+      padding-top: 100px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-weight: medium;
       text-align: center;
